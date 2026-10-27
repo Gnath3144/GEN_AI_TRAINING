@@ -1,11 +1,14 @@
 # 10-Day LLM Engineering Training Curriculum
 
 ## Program Overview
-- **Course Name**: Master Generative AI & LLM Engineering: From Local Inference to Production Multi-Agent Systems
+*Codealytica — CODE. ANALYZE. BUILD. GROW.*
+
+- **Trainer**: **Gopinath** — Data Engineer | Generative AI & LLM Engineering
+- **Course Name**: Generative AI & LLM Engineering: 10-Day Practical Training Program
 - **Format**: 10-Day Intensive Practical Training (Lectures, Live Demos, Guided Labs, and Capstone Project)
-- **Target Audience**: Software Engineers, Data Scientists, AI Practitioners, and Technical Leads transitioning into Generative AI engineering
+- **Target Audience**: Software Engineers, Data Engineers, and Technical Practitioners transitioning into Generative AI engineering
 - **Core Pedagogy**: "Code-First, Theory-Supported" — Every concept is immediately validated with runnable Python code or interactive notebooks. Dual-track support for local open models (Ollama) and commercial cloud APIs (OpenAI / Gemini / Anthropic).
-- **Attribution & Reference**: Adapted and redesigned from Ed Donner's 8-Week *LLM Engineering* curriculum (MIT License).
+- **Attribution & Reference**: Curated and adapted from Ed Donner's 8-Week *LLM Engineering* reference curriculum (MIT License).
 
 ---
 

@@ -1,7 +1,9 @@
 # Implementation & Training Conversion Report
 
+*Codealytica — CODE. ANALYZE. BUILD. GROW.*
+
 ## 1. Executive Summary
-This report documents the conversion of Ed Donner's 8-week `llm_engineering` reference repository into an intensive, instructor-ready **10-Day LLM Engineering Training Program** hosted at `https://github.com/Gnath3144/GEN_AI_TRAINING.git`.
+This report documents the curation and conversion of Ed Donner's 8-week `llm_engineering` reference repository into an intensive, instructor-ready **10-Day LLM Engineering Training Program** delivered by **Gopinath (Data Engineer at Deloitte | Generative AI & LLM Engineering)** and hosted at `https://github.com/Gnath3144/GEN_AI_TRAINING.git`.
 
 Yesterday's completed training session (Day 01) has been audited, preserved, and marked `COMPLETED`. Today's active training session (Day 02) has been structured and marked `IN_PROGRESS`. Days 03 through 10 have been planned and implemented with complete, tested materials, and the capstone project has been validated with automated test suites.
 

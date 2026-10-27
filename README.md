@@ -1,55 +1,56 @@
-# Generative AI & LLM Engineering: 10-Day Masterclass
+# Generative AI & LLM Engineering: 10-Day Training Program
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python: 3.11+](https://img.shields.io/badge/Python-3.11%2B-brightgreen.svg)](https://www.python.org/)
-[![Status: Instructor-Ready](https://img.shields.io/badge/Status-Instructor--Ready-orange.svg)]()
-[![Tests: Passing](https://img.shields.io/badge/Tests-Passing%20(16%2F16)-success.svg)]()
-
-> A practical, code-first, 10-day training curriculum designed to transition software engineers, data scientists, and technical architects into proficient Generative AI and LLM Engineers.
+*Codealytica — CODE. ANALYZE. BUILD. GROW.*
 
 ---
 
-## 1. Course Overview & Philosophy
-Modern Generative AI is rapidly evolving from conversational toy demos into mission-critical production software. Building resilient enterprise applications requires deep engineering rigor: deterministic schema enforcement, bounded autonomy, vector retrieval evaluation, and defense-in-depth security guardrails.
+### Trainer
+**Gopinath** — Data Engineer | Generative AI & LLM Engineering
 
-This repository provides an instructor-led, hands-on 10-day training program. Every single day couples theoretical architectural concepts with runnable code, lab exercises, and verified reference implementations.
-
-### The Dual-Track Guarantee
-- **Local Track (Zero API Cost)**: Run fully functional open-source models offline using [Ollama](https://ollama.com/) (`llama3.2:1b`, `llama3.2:3b`), local sentence transformers, and ChromaDB.
-- **Cloud Track (Frontier APIs)**: Connect to OpenAI (GPT-4o / GPT-4o-mini), Google Gemini, or Anthropic Claude for cloud-scale throughput.
-- All codebases feature **automatic graceful degradation** — if API keys are absent, code executes safely with built-in resilient fallbacks.
+> Gopinath is a Data Engineer at Deloitte with experience in data engineering, analytics, and Generative AI. He focuses on building practical data solutions and exploring how large language models can be used to develop intelligent applications. This training takes learners from foundational LLM concepts to hands-on AI application development through practical demonstrations, coding exercises, and real-world use cases.
 
 ---
 
-## 2. Complete 10-Day Training Schedule & Progress Board
+## 1. Course Focus & Engineering Journey
+This repository contains a practical, code-first 10-day training program designed to teach engineers how to design, build, evaluate, and deploy production-grade Large Language Model (LLM) applications using Python.
 
-| Day | Module Title | Status | Primary Focus & Deliverables |
+The curriculum centers strictly on real-world engineering:
+- **Python-based LLM application development**: Structuring clean services, managing environments, and handling errors.
+- **LLM APIs and prompt engineering**: System framing, parameter controls, few-shot patterns, and token economics.
+- **Structured outputs and tool calling**: Enforcing Pydantic schemas and executing controlled Python functions.
+- **Embeddings, semantic search, and RAG**: Document chunking, ChromaDB vector stores, and citation-grounded answering.
+- **Open-source models and multimodal AI**: Self-hosted models via Ollama and vision-language diagnostics.
+- **LLM evaluation, reliability, and safety**: Mitigating prompt injection, PII sanitization, caching, and quantitative RAG metrics.
+- **Agents and workflow orchestration**: Implementing bounded ReAct (Reason + Act) autonomous loops.
+- **Building and demonstrating working applications**: Delivering web dashboards and an end-to-end Capstone project.
+
+### Dual-Track Architecture (Local & Cloud)
+- **Local Track (Zero Cost)**: Run models offline using [Ollama](https://ollama.com/) (`llama3.2:1b`, `llama3.2:3b`), local sentence transformers, and ChromaDB.
+- **Cloud Track (Frontier APIs)**: Connect seamlessly to OpenAI (GPT-4o / GPT-4o-mini), Google Gemini, or Anthropic Claude.
+- **Graceful Fallbacks**: All codebases feature automated fallback detection — if cloud API keys are absent, scripts degrade gracefully to local Ollama or deterministic mock fixtures without crashing.
+
+---
+
+## 2. 10-Day Schedule & Delivery Status
+
+| Day | Module Title | Status | Core Hands-On Deliverable |
 | :---: | :--- | :---: | :--- |
-| **[Day 01](day-01/)** | **LLM Foundations & Local Models** | `COMPLETED` | Lifecycle, Ollama local setup, prompt loops, [CLI Web Page Summarizer](day-01/solutions/web_summarizer.py). |
-| **[Day 02](day-02/)** | **Model APIs & Structured Outputs** | `IN_PROGRESS` | Chat completion mechanics, token budgets (`tiktoken`), Pydantic [Review Extractor](day-02/solutions/structured_extractor.py). |
-| **[Day 03](day-03/)** | **Resilient Architecture & Tool Calling** | `PLANNED` | 2-turn function execution, tenacity backoff, [Airline AI Assistant](day-03/solutions/tool_calling_assistant.py). |
-| **[Day 04](day-04/)** | **Embeddings, Vector Stores & RAG** | `PLANNED` | Semantic similarity, ChromaDB indexing, grounded citations, [Insurance RAG](day-04/solutions/rag_pipeline.py). |
-| **[Day 05](day-05/)** | **Advanced RAG & Retrieval Evaluation** | `PLANNED` | Hybrid search, Reciprocal Rank Fusion, [Quantitative RAG Benchmark](day-05/solutions/rag_evaluation.py). |
-| **[Day 06](day-06/)** | **Open-Source Models & Multimodal AI** | `PLANNED` | Vision-Language Models, base64 pipelines, [Hardware Defect Auditor](day-06/solutions/multimodal_analyzer.py). |
-| **[Day 07](day-07/)** | **LLM Quality, Safety & Guardrails** | `PLANNED` | Prompt injection defense, PII sanitization, exact caching, [Security Middleware](day-07/solutions/security_guardrails.py). |
-| **[Day 08](day-08/)** | **Autonomous Agents & ReAct Loops** | `PLANNED` | Reason+Act state loops, cycle boundaries, [Bounded Deal Hunter Agent](day-08/solutions/autonomous_agent.py). |
-| **[Day 09](day-09/)** | **Production Web App & Observability** | `PLANNED` | Streamlit Dashboard, telemetry metrics, [Automated Pytest Regression Suite](day-09/solutions/test_app.py). |
-| **[Day 10](day-10/)** | **Capstone Integration & Defense** | `PLANNED` | End-to-end integration, evaluation, architecture defense, [Capstone Platform](capstone/). |
+| **[Day 01](day-01/)** | **LLM Foundations & Local Models** | `COMPLETED` *(Delivered Oct 26)* | [CLI Web Page Summarizer](day-01/solutions/web_summarizer.py) |
+| **[Day 02](day-02/)** | **Model APIs & Structured Outputs** | `IN_PROGRESS` *(Active Oct 27)* | [Pydantic Customer Review Extractor](day-02/solutions/structured_extractor.py) |
+| **[Day 03](day-03/)** | **Resilient Architecture & Tool Calling** | `PLANNED` | [Airline Customer Service Assistant](day-03/solutions/tool_calling_assistant.py) |
+| **[Day 04](day-04/)** | **Embeddings, Vector Stores & RAG** | `PLANNED` | [Grounded Policy QA Pipeline](day-04/solutions/rag_pipeline.py) |
+| **[Day 05](day-05/)** | **Advanced RAG & Retrieval Evaluation** | `PLANNED` | [Quantitative RAG Benchmark & MRR Scorecard](day-05/solutions/rag_evaluation.py) |
+| **[Day 06](day-06/)** | **Open-Source Models & Multimodal AI** | `PLANNED` | [Hardware Defect VLM Auditor](day-06/solutions/multimodal_analyzer.py) |
+| **[Day 07](day-07/)** | **LLM Quality, Safety & Guardrails** | `PLANNED` | [Security Guardrail & Caching Middleware](day-07/solutions/security_guardrails.py) |
+| **[Day 08](day-08/)** | **Autonomous Agents & ReAct Loops** | `PLANNED` | [Bounded Autonomous ReAct Deal Agent](day-08/solutions/autonomous_agent.py) |
+| **[Day 09](day-09/)** | **Production Web App & Observability** | `PLANNED` | [Multi-Feature Dashboard & Pytest Suite](day-09/solutions/app.py) |
+| **[Day 10](day-10/)** | **Capstone Integration & Defense** | `PLANNED` | [The Enterprise AI Intelligence Desk](capstone/) |
 
 ---
 
-## 3. Target Audience & Prerequisites
-- **Target Audience**: Software Engineers, Data Engineers, Solution Architects, Tech Leads.
-- **Prerequisites**:
-  - Proficiency in Python (functions, OOP, exceptions, virtual environments).
-  - Basic familiarity with Git, command-line interfaces, and JSON data structures.
-  - No deep machine learning or GPU CUDA programming background required.
+## 3. Quick Start & Setup
 
----
-
-## 4. Quick Start & Setup Instructions
-
-### 1. Clone the Training Repository
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/Gnath3144/GEN_AI_TRAINING.git
 cd GEN_AI_TRAINING
@@ -57,12 +58,15 @@ cd GEN_AI_TRAINING
 
 ### 2. Set Up Virtual Environment & Dependencies
 ```bash
-# Create and activate virtual environment
-python -m venv .venv
-source .venv/bin/activate       # On macOS / Linux
-.venv\Scripts\Activate.ps1      # On Windows PowerShell
+# On macOS / Linux:
+python3 -m venv .venv
+source .venv/bin/activate
 
-# Install dependencies
+# On Windows (PowerShell):
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+
+# Install requirements:
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
@@ -78,19 +82,18 @@ Copy `.env.example` to `.env` and insert your API keys:
 ```bash
 cp .env.example .env
 ```
-
-For complete platform guides, see **[`SETUP.md`](SETUP.md)**.
+For complete platform setup instructions, see **[`SETUP.md`](SETUP.md)**.
 
 ---
 
-## 5. Running Notebooks and Applications
+## 4. Running Daily Labs and Verification
 
-### Interactive Jupyter Notebooks
-Launch Jupyter Lab or VS Code to step through daily interactive notebooks:
+### Interactive Notebooks
+Launch Jupyter to explore daily demos:
 ```bash
 jupyter lab
 ```
-Explore `demo.ipynb` inside any day folder (e.g. `day-01/demo.ipynb`).
+Navigate to `demo.ipynb` inside each day folder (e.g. `day-01/demo.ipynb`).
 
 ### Running Daily Production Scripts
 ```bash
@@ -133,15 +136,7 @@ pytest -v
 
 ---
 
-## 6. Model Selection & Cost-Conscious Guidance
-- **Local Ollama Models (`llama3.2:1b`, `llama3.2:3b`)**: $0.00 cost, private, offline. Ideal for rapid iteration, testing prompts, and lab exercises.
-- **Cloud Models (`gpt-4o-mini`, `gemini-1.5-flash`)**: Extremely low cost (<$0.15 per million tokens).
-- **Exact Hash Caching**: Repeated prompt executions hit the Day 07 in-memory cache at **0 ms latency and 0 tokens**.
-For a detailed cost matrix, consult **[`docs/API_COST_AND_MODEL_OPTIONS.md`](docs/API_COST_AND_MODEL_OPTIONS.md)**.
-
----
-
-## 7. Capstone Project: Enterprise AI Intelligence Desk
+## 5. Capstone Project: Enterprise AI Intelligence Desk
 The program culminates in **[The Enterprise AI Intelligence Desk](capstone/)**, an integrated operations platform uniting:
 - Pre-execution security gateway and PII sanitizer.
 - Semantic RAG over company policies with citation provenance.
@@ -151,16 +146,18 @@ The program culminates in **[The Enterprise AI Intelligence Desk](capstone/)**, 
 
 ---
 
-## 8. Documentation Quick Links
+## 6. Documentation Quick Links
 - **[`10_DAY_CURRICULUM.md`](10_DAY_CURRICULUM.md)**: Full syllabus, learning outcomes, and assessment rubrics.
 - **[`SOURCE_REPOSITORY_ANALYSIS.md`](SOURCE_REPOSITORY_ANALYSIS.md)**: Analysis of the reference repository and curriculum conversion rationale.
+- **[`docs/COURSE_OVERVIEW.md`](docs/COURSE_OVERVIEW.md)**: Course vision, objectives, and pedagogical rhythm.
 - **[`docs/TRAINER_GUIDE.md`](docs/TRAINER_GUIDE.md)**: Instructor delivery notes, pacing, and debrief guidelines.
 - **[`docs/LEARNER_GUIDE.md`](docs/LEARNER_GUIDE.md)**: Student study handbook and best practices.
+- **[`docs/API_COST_AND_MODEL_OPTIONS.md`](docs/API_COST_AND_MODEL_OPTIONS.md)**: Model selection matrix and cost management guidance.
 - **[`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md)**: Solutions for common setup, API, and JSON decoding issues.
 
 ---
 
-## 9. Attribution & Licensing
-This training program is adapted and redesigned from the 8-week *LLM Engineering* masterclass created by **[Ed Donner](https://github.com/ed-donner/llm_engineering)**, licensed under the **MIT License**.
+## 7. Attribution & Licensing
+This training program is curated and adapted from the 8-week *LLM Engineering* reference curriculum created by **[Ed Donner](https://github.com/ed-donner/llm_engineering)**, licensed under the **MIT License**.
 
 All adapted and newly created materials in this repository preserve copyright notices, license compliance, and educational attribution.
