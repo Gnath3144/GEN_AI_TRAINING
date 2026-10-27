@@ -1,0 +1,32 @@
+[
+  {
+    "id": "KB-101",
+    "title": "Comprehensive Automobile Coverage & Deductibles",
+    "category": "Auto Insurance",
+    "content": "Our Standard Auto Policy covers vehicular damage resulting from collision, theft, vandalism, and environmental disasters. The standard policy deductible is $500 for collision and $250 for comprehensive claims. Policyholders who maintain a zero-incident driving record for 36 consecutive months qualify for our Vanishing Deductible program, which reduces deductibles by $100 per safe year down to a minimum of $0. Towing and roadside assistance are included up to a radius of 50 miles per incident, with a maximum of four service dispatches per calendar year."
+  },
+  {
+    "id": "KB-102",
+    "title": "Homeowners Policy Water Damage Exclusions",
+    "category": "Home Insurance",
+    "content": "Homeowners Policy Type HO-3 protects residential dwellings against sudden and accidental internal water discharge, such as burst plumbing pipes or malfunctioning water heaters. Crucially, damage resulting from continuous or repeated seepage occurring over a duration exceeding 14 days is strictly excluded. External floods, surface water runoff, storm surge, and subterranean hydrostatic pressure are not covered under standard policies and require separate National Flood Insurance Program (NFIP) endorsements."
+  },
+  {
+    "id": "KB-103",
+    "title": "Commercial Business Interruption Guidelines",
+    "category": "Commercial Insurance",
+    "content": "Business Interruption Insurance compensates policyholders for documented loss of net operational profit and recurring fixed operational overhead expenses during mandatory closure directly caused by a covered physical peril. Coverage initiates exactly 48 hours following verified physical impact to the insured commercial premises and extends for an indemnity restoration window of up to 12 months. Payroll for essential management and key staff is indemnified, whereas variable performance bonuses are excluded."
+  },
+  {
+    "id": "KB-104",
+    "title": "Travel Insurance Medical Evacuation & Cancellation",
+    "category": "Travel Insurance",
+    "content": "International Travel Guard policies provide emergency medical transportation and repatriation coverage up to $250,000 when local attending physicians determine municipal clinical facilities are inadequate. Trip Cancellation reimbursement covers up to 100% of non-refundable prepaid itinerary bookings if cancellations arise due to verified medical emergencies, severe weather shutdowns, or unexpected jury summons. Pre-existing medical conditions are covered only if the policy is bound within 14 days of initial trip deposit."
+  },
+  {
+    "id": "KB-105",
+    "title": "Cyber Liability Data Breach Notification Mandate",
+    "category": "Cyber Insurance",
+    "content": "Enterprise Cyber Defense policies provide legal defense, forensic investigation, and regulatory penalty reimbursement following unauthorized network intrusion or data exfiltration. Insured enterprises must notify the Cyber Incident Response Hotline within 24 hours of suspected compromise. Failure to maintain mandatory multi-factor authentication (MFA) across all administrative access endpoints and public-facing remote desktop portals may reduce liability indemnification by up to 50%."
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "review_id": "REV-01",
+    "raw_text": "Purchased the UltraClean Robot Vacuum (Model X5) on 2026-10-12 for $349.99. The suction power is phenomenal on hardwood floors, easily picking up pet hair. However, the battery drains in under 45 minutes on carpet, and the mobile companion app crashes constantly on iOS 18. Customer support took 4 days to reply. Overall rating: 3 stars. Would not recommend for large multi-story homes.",
+    "expected_product": "UltraClean Robot Vacuum (Model X5)",
+    "expected_sentiment": "Mixed",
+    "expected_price": 349.99
+  },
+  {
+    "review_id": "REV-02",
+    "raw_text": "I ordered the Apex Acoustic Noise-Cancelling Headphones on October 20th. Outstanding build quality! The active noise cancellation completely silences airport terminal noise, and the 30-hour battery life is real. Paid $199 with a 15% discount code (net $169.15). Definitely 5 out of 5 stars. Best audio investment I've made all year.",
+    "expected_product": "Apex Acoustic Noise-Cancelling Headphones",
+    "expected_sentiment": "Positive",
+    "expected_price": 169.15
+  },
+  {
+    "review_id": "REV-03",
+    "raw_text": "DO NOT BUY the SmartBrew Pro Espresso Maker. Arrived cracked out of the box, leaked boiling water all over my kitchen counter on first use, and the digital pressure gauge never turned on. Price was $580. Immediate return initiated. Total safety hazard. 1 star.",
+    "expected_product": "SmartBrew Pro Espresso Maker",
+    "expected_sentiment": "Negative",
+    "expected_price": 580.0
+  }
+]

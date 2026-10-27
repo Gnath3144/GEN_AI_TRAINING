@@ -1,0 +1,36 @@
+{
+  "flights": [
+    {
+      "flight_number": "SK-204",
+      "origin": "SFO",
+      "destination": "JFK",
+      "status": "On Time",
+      "departure_time": "2026-10-28T08:30:00Z",
+      "gate": "B12",
+      "baggage_allowance_kg": 23
+    },
+    {
+      "flight_number": "SK-419",
+      "origin": "LHR",
+      "destination": "ORD",
+      "status": "Delayed 45 mins",
+      "departure_time": "2026-10-28T14:15:00Z",
+      "gate": "Terminal 5 - 44A",
+      "baggage_allowance_kg": 32
+    },
+    {
+      "flight_number": "SK-882",
+      "origin": "HND",
+      "destination": "SEA",
+      "status": "Boarding",
+      "departure_time": "2026-10-28T17:50:00Z",
+      "gate": "Gate 108",
+      "baggage_allowance_kg": 23
+    }
+  ],
+  "baggage_fees": {
+    "first_checked_bag_usd": 35.0,
+    "second_checked_bag_usd": 45.0,
+    "overweight_fee_per_kg_usd": 15.0
+  }
+}
